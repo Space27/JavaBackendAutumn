@@ -12,7 +12,7 @@ class Task5Test {
     @DisplayName("Тест вывода long")
     void hackerNewsTopStories_shouldReturnJSONAsLongArray()
         throws URISyntaxException, IOException, InterruptedException {
-        final long firstId = 38222596;
+        final long firstId = 45102512;
 
         long[] result = Task5.hackerNewsTopStories();
 

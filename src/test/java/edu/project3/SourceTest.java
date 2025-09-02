@@ -54,7 +54,7 @@ class SourceTest {
     @Test
     @DisplayName("Взятие строк с несуществующего сайта")
     void httpSource_shouldReturnEmptyListForNotExistingWeb() throws URISyntaxException {
-        URI path = new URI("https://raw.githubusercontnt.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs");
+        URI path = new URI("https://raw.githubuserconthnt.com/elastic/examples/master/Common%20Data%20Formats/nginx_logs/nginx_logs");
 
         List<String> result = new HttpSource(path).readStringsFromSource();
 
